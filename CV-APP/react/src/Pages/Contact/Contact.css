@@ -1,0 +1,19 @@
+.contact-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.heading-contact {
+    text-align: center;
+}
+
+.contact-image {
+    justify-self: center;
+}
+
+@media (max-width: 480px) {
+    .contact-grid,
+    .contact-image {
+        grid-template-columns: 100%;
+    }
+}

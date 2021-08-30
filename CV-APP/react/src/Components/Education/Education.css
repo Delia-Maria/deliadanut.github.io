@@ -1,0 +1,14 @@
+.education-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.education {
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .education-grid {
+        grid-template-columns: 100%;
+    }
+}

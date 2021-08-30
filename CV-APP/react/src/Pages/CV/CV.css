@@ -1,0 +1,9 @@
+.CV {
+    text-align: center;
+}
+
+.education {}
+
+.experience {
+    display: grid;
+}

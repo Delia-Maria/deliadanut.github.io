@@ -1,0 +1,37 @@
+.project-description {
+    text-align: center;
+}
+
+.shop-app {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.toDo-app {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.project.image {
+    justify-self: center;
+    padding: 5%;
+}
+
+@media (max-width: 480px) {
+    .shop-app,
+    .toDo-app,
+    .project.image {
+        grid-template-columns: 100%;
+    }
+}
+
+.app-heading {
+    text-align: center;
+}
+
+
+/* @media (max-width: 650px) {
+    .project.image {
+        grid-template-columns: 100%;
+    }
+} */

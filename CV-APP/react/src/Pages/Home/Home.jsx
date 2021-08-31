@@ -7,8 +7,6 @@ import './Home.css';
 const Home = () => {
     return(
         <div className="home">
-        
-
          <Description />
         </div>
     )

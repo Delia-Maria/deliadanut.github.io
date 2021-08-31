@@ -1,5 +1,7 @@
 .project-description {
     text-align: center;
+    /* padding: 10px;
+    background-color: black; */
 }
 
 .shop-app {
@@ -14,7 +16,6 @@
 
 .project.image {
     justify-self: center;
-    padding: 5%;
 }
 
 @media (max-width: 480px) {
@@ -28,10 +29,3 @@
 .app-heading {
     text-align: center;
 }
-
-
-/* @media (max-width: 650px) {
-    .project.image {
-        grid-template-columns: 100%;
-    }
-} */

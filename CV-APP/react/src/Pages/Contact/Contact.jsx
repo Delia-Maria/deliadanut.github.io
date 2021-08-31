@@ -12,6 +12,7 @@ const Contact = () => {
                 <p> Republicii nr.69, Cluj-Napoca, RO</p>
                 <p> delia_humeniuc@yahoo.com</p>
                 <p> 0747847207</p>
+                <a href="www.linkedin.com/in/delia-maria-dănuț-humeniuc-764044135">Linkdln Account</a>
             </div> 
 
             <div className="contact-image">

@@ -1,17 +1,32 @@
 .header-container {
-    /* display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: sans-serif;
-    */
-    background-color: white;
+    background-color: black;
+    color: rgb(165, 163, 163);
+    padding: 15px;
 }
 
-.title-name {
-    font-family: sans-serif;
-    width: 100px;
+.button {
+    background-color: black;
+    color: rgb(165, 163, 163);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: none;
+    border: none;
+    padding: 8px 15px;
+    text-align: center;
 }
 
-#my-name {
+.button:hover {
+    background-color: #b6b4b4;
     color: black;
+    padding: 30px 20px;
+}
+
+hr {
+    margin-top: unset;
+    margin-bottom: 1cm;
+    height: 1px;
+    background-color: rgb(94, 93, 93);
 }

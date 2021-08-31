@@ -11,6 +11,10 @@
     justify-self: center;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 @media (max-width: 480px) {
     .contact-grid,
     .contact-image {

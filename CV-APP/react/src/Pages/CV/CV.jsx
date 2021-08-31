@@ -12,8 +12,8 @@ const CV = () => {
                 <h1>EDUCATION</h1>
                 <h4>My Schooling</h4>
                 <Education />
-                
             </div>
+        
             <div className="experience">
             <h1>EXPERIENCE</h1>
             <h4>Past Roles</h4>

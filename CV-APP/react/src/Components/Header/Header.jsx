@@ -7,16 +7,20 @@ import {
 
 const Header = () => {
     return(
+        <div>
         <div className="header-container">
-           <h1 className="my-name"id="my-name">DELIA DANUT</h1>
+           <h3 className="title-name">DELIA DANUT</h3>
            <nav>
-               <Link to="/Home"><button>HOME</button></Link>
-               <Link to="/CV"><button>My CV</button></Link>
-               <Link to="/ShowOffPage"><button>Show Off Page</button></Link>
-               <Link to="/Contact"><button>Contact</button></Link>
-      
+               <Link to="/Home"><button className="button btn-home">HOME</button></Link>
+               <Link to="/CV"><button className="button btn-cv">My CV</button></Link>
+               <Link to="/ShowOffPage"><button className="button btn-show">Show Off Page</button></Link>
+               <Link to="/Contact"><button className="button contact">Contact</button></Link>
            </nav>
         </div>
+        <hr/>
+        </div>
+   
+        
     )
 }
 export default Header;

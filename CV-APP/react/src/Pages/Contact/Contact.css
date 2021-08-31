@@ -1,3 +1,7 @@
+.page-contact-grid {
+    margin: 50px;
+}
+
 .contact-grid {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -9,10 +13,6 @@
 
 .contact-image {
     justify-self: center;
-}
-
-a:link {
-    text-decoration: none;
 }
 
 @media (max-width: 480px) {

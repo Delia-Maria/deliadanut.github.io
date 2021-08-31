@@ -3,13 +3,15 @@
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    color: rgb(165, 163, 163);
+    color: rgb(207, 204, 204);
+    ;
     padding: 15px;
 }
 
 .button {
     background-color: black;
-    color: rgb(165, 163, 163);
+    color: rgb(207, 204, 204);
+    ;
     transition-duration: 0.4s;
     cursor: pointer;
     margin: none;
@@ -24,9 +26,19 @@
     padding: 30px 20px;
 }
 
-hr {
+.hr-header {
     margin-top: unset;
-    margin-bottom: 1cm;
+    margin-bottom: 1.5cm;
+    border: none;
     height: 1px;
     background-color: rgb(94, 93, 93);
 }
+
+
+/* .hr-footer {
+    margin-bottom: unset;
+    margin-top: 1.5cm;
+    border: none;
+    height: 1px;
+    background-color: rgb(94, 93, 93);
+} */

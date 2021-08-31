@@ -1,31 +1,50 @@
+.wallpaper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/images/mac.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
 .project-description {
     text-align: center;
-    /* padding: 10px;
-    background-color: black; */
+    color: rgb(248, 246, 246);
+}
+
+.container-grid {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    margin: 50px;
 }
 
 .shop-app {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: none;
+    padding: 5px;
+    align-items: center;
 }
 
 .toDo-app {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: none;
+    padding: 5px;
+    align-items: center;
 }
 
 .project.image {
-    justify-self: center;
+    display: grid;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 650px) {
+    .container-grid,
     .shop-app,
     .toDo-app,
     .project.image {
         grid-template-columns: 100%;
     }
-}
-
-.app-heading {
-    text-align: center;
 }

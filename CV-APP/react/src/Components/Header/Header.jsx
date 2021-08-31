@@ -17,7 +17,7 @@ const Header = () => {
                <Link to="/Contact"><button className="button contact">Contact</button></Link>
            </nav>
         </div>
-        <hr/>
+        <hr className="hr-header"/>
         </div>
    
         

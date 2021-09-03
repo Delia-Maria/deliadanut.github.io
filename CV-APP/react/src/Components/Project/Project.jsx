@@ -25,7 +25,7 @@ const Project = () => {
                         <p>This project is about a marketing website where people can buy different products from accesories to clothes.</p>
                     </div>
                     <div className="project-image">
-                        <img src="src/images/me.jpg" width="250" height="200" ></img>
+                        <img src="src/images/shop.png" width="250" height="250" ></img>
                     </div>
                 </div>
                 <div className="toDo-app">
@@ -35,7 +35,7 @@ const Project = () => {
                         <p>The purpose of this project was to practice CRUD (create, read, update, delete) using fetch data from server.</p>
                     </div>
                     <div className="project-image">
-                        <img src="src/images/me1.jpg" width="250" height="200"></img>
+                        <img src="src/images/todo.webp" width="250" height="200"></img>
                     </div>
                 </div>
             </div>

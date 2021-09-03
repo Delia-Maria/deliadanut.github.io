@@ -11,8 +11,9 @@
     text-align: center;
 }
 
-.contact-image {
-    justify-self: center;
+.linkdln-icon {
+    width: 40px;
+    height: 40px;
 }
 
 @media (max-width: 480px) {

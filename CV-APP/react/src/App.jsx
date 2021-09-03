@@ -24,9 +24,6 @@ function App() {
 
         <Header />
         <Switch>
-          <Route path="/Home">
-            <Home />
-          </Route>
           <Route path="/ShowOffPage">
             <ShowOffPage />
           </Route>
@@ -35,6 +32,9 @@ function App() {
           </Route>
           <Route path="/Contact">
             <Contact />
+          </Route>
+          <Route path="/">
+            <Home />
           </Route>
         </Switch> 
         <Footer />
